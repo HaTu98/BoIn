@@ -25,7 +25,7 @@ public class Users {
     private String email;
 
     @Column
-    private  String password;
+    private String password;
 
     @Column
     private String createdAt;

@@ -10,16 +10,19 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class InterviewRoundRoles {
+public class InterviewerFreeTimes {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
-    private Integer interviewRoleId;
+    private Integer candidateId;
 
     @Column
-    Integer interviewRoundId;
+    private Long timeSlice;
+
+    @Column
+    private String date;
 
     @Column
     private String createdAt;

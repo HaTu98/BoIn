@@ -25,7 +25,7 @@ public class InterviewSessions {
     private Integer slotMin;
 
     @Column
-    private  Integer slotMax;
+    private Integer slotMax;
 
     @Column
     private String createdAt;
